@@ -1,0 +1,37 @@
+{
+  "name": "turbophp-org/event",
+  "description": "TurboPHP 框架事件库，提供事件发布、监听和订阅机制，支持异步触发与中间件处理，便于应用解耦和扩展。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "event",
+    "listener",
+    "observer",
+    "publish-subscribe"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/event/issues",
+    "source": "https://github.com/turbophp-org/event",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/event/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Event\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
